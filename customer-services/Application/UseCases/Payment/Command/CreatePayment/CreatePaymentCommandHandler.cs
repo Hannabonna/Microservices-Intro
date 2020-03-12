@@ -33,7 +33,7 @@ namespace customer_services.Application.UseCases.Payment.Command.CreatePayment
             return new CreatePaymentCommandDto
             {
                 Success = true,
-                Message = "Merchant successfully created"
+                Message = "Payment successfully created"
             };
 
         }

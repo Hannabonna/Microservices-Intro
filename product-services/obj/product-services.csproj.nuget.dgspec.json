@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gigaming/Microservices/product-services/product-services.csproj": {}
+    "/Users/gigaming/bootcamp/Microservices/product-services/product-services.csproj": {}
   },
   "projects": {
-    "/Users/gigaming/Microservices/product-services/product-services.csproj": {
+    "/Users/gigaming/bootcamp/Microservices/product-services/product-services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gigaming/Microservices/product-services/product-services.csproj",
+        "projectUniqueName": "/Users/gigaming/bootcamp/Microservices/product-services/product-services.csproj",
         "projectName": "product-services",
-        "projectPath": "/Users/gigaming/Microservices/product-services/product-services.csproj",
+        "projectPath": "/Users/gigaming/bootcamp/Microservices/product-services/product-services.csproj",
         "packagesPath": "/Users/gigaming/.nuget/packages/",
-        "outputPath": "/Users/gigaming/Microservices/product-services/obj/",
+        "outputPath": "/Users/gigaming/bootcamp/Microservices/product-services/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

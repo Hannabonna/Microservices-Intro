@@ -31,7 +31,7 @@ namespace product_services
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<ProductContext>(op => op.UseNpgsql("Host=127.0.0.1;Username=postgres;Password=docker;Database=product_db"));
+            services.AddDbContext<ProductContext>(options => options.UseNpgsql(Configuration.GetConnectionString("defaultConnection")));
 
             services.AddMediatR(typeof(GetProductQueryHandler).GetTypeInfo().Assembly);
 

@@ -33,7 +33,7 @@ namespace customer_services
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<CustomerContext>(op => op.UseNpgsql("Host=127.0.0.1;Username=postgres;Password=docker;Database=customer_db"));
+            services.AddDbContext<CustomerContext>(options => options.UseNpgsql(Configuration.GetConnectionString("defaultConnection")));
 
             services.AddMediatR(typeof(GetCustomerQueryHandler).GetTypeInfo().Assembly);
 

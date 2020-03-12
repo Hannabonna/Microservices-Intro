@@ -1016,11 +1016,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/gigaming/Microservices/customer-services/customer-services.csproj",
+      "projectUniqueName": "/Users/gigaming/bootcamp/Microservices/customer-services/customer-services.csproj",
       "projectName": "customer-services",
-      "projectPath": "/Users/gigaming/Microservices/customer-services/customer-services.csproj",
+      "projectPath": "/Users/gigaming/bootcamp/Microservices/customer-services/customer-services.csproj",
       "packagesPath": "/Users/gigaming/.nuget/packages/",
-      "outputPath": "/Users/gigaming/Microservices/customer-services/obj/",
+      "outputPath": "/Users/gigaming/bootcamp/Microservices/customer-services/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -23,7 +23,7 @@ namespace customer_services.Application.UseCases.Payment.Queries.GetPayments
             return new GetPaymentsDto 
             {
                 Success = true,
-                Message = "Customer successfully retrieved",
+                Message = "Payment successfully retrieved",
                 Data = data
             };
          }

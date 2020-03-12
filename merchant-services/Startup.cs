@@ -30,8 +30,8 @@ namespace merchant_services
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<MerchantContext>(op => op.UseNpgsql("Host=127.0.0.1;Username=postgres;Password=docker;Database=merchant_db"));
-
+            services.AddDbContext<MerchantContext>(options => options.UseNpgsql(Configuration.GetConnectionString("defaultConnection")));
+            
             services.AddMediatR(typeof(GetMerchantQueryHandler).GetTypeInfo().Assembly);
 
             services.AddMvc()
