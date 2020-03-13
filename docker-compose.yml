@@ -1,0 +1,44 @@
+version: "3"
+
+services:
+    customerservice:
+        image: hannaafiah/customer-services:latest
+        deploy:
+            replicas: 2
+        ports: 
+            - "3000:80"
+        networks: 
+            - network_default
+
+    merchantservice:
+        image: hannaafiah/merchant-services:latest
+        deploy:
+            replicas: 2
+        ports:
+            - "4000:80"
+        networks:
+            - network_default
+
+    productservice:
+        image: hannaafiah/product-services:latest
+        deploy:
+            replicas: 2
+        ports:
+            - "5000:80"
+        networks:
+            - network_default
+    
+    pgdocker:
+        image: postgres:latest
+        networks:
+            - network_default
+        environment: 
+            POSTGRES_PASSWORD: docker
+        ports: 
+            - "5432:5432"
+        deploy:
+            placement:
+                constraints: [node.role == manager]
+  
+networks:
+    network_default:
