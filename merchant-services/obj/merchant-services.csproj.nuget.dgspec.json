@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gigaming/Microservices/merchant-services/merchant-services.csproj": {}
+    "/Users/gigaming/bootcamp/Microservices/merchant-services/merchant-services.csproj": {}
   },
   "projects": {
-    "/Users/gigaming/Microservices/merchant-services/merchant-services.csproj": {
+    "/Users/gigaming/bootcamp/Microservices/merchant-services/merchant-services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gigaming/Microservices/merchant-services/merchant-services.csproj",
+        "projectUniqueName": "/Users/gigaming/bootcamp/Microservices/merchant-services/merchant-services.csproj",
         "projectName": "merchant-services",
-        "projectPath": "/Users/gigaming/Microservices/merchant-services/merchant-services.csproj",
+        "projectPath": "/Users/gigaming/bootcamp/Microservices/merchant-services/merchant-services.csproj",
         "packagesPath": "/Users/gigaming/.nuget/packages/",
-        "outputPath": "/Users/gigaming/Microservices/merchant-services/obj/",
+        "outputPath": "/Users/gigaming/bootcamp/Microservices/merchant-services/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

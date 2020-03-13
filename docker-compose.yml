@@ -42,3 +42,4 @@ services:
   
 networks:
     network_default:
+        external: true
